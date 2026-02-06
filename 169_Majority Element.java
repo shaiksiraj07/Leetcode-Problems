@@ -22,7 +22,8 @@ n == nums.length
 1 <= n <= 5 * 104
 -109 <= nums[i] <= 109
 The input is generated such that a majority element will exist in the array. */
------------------------------------------------------------------------------------------------import java.util.Arrays;
+-----------------------------------------------------------------------------------------------
+ import java.util.Arrays;
 
 class Solution {
     public int majorityElement(int[] nums) {
