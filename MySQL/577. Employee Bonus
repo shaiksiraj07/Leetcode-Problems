@@ -1,7 +1,6 @@
 577. Employee Bonus
 
 Table: Employee
-
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -12,8 +11,6 @@ Table: Employee
 +-------------+---------+
 empId is the column with unique values for this table.
 Each row of this table indicates the name and the ID of an employee in addition to their salary and the id of their manager.
- 
-
 Table: Bonus
 
 +-------------+------+
@@ -34,8 +31,6 @@ The employee did not get any bonus.
 Return the result table in any order.
 
 The result format is in the following example.
-
- 
 
 Example 1:
 
@@ -64,7 +59,8 @@ Output:
 | John | null  |
 | Dan  | 500   |
 +------+-------+
--------------------------------------------------------------------------------------------------------------------------
+==============================================================================
+
 QUERY:
 
 select e.name,b.bonus from Employee e 
