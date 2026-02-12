@@ -9,14 +9,10 @@ Table: Employee
 +-------------+---------+
 id is the primary key (column with unique values) for this table.
 Each row of this table indicates the ID of an employee, their name, salary, and the ID of their manager.
- 
 Write a solution to find the employees who earn more than their managers.
-
 Return the result table in any order.
-
 The result format is in the following example.
 Example 1:
-
 Input: 
 Employee table:
 +----+-------+--------+-----------+
@@ -34,8 +30,7 @@ Output:
 | Joe      |
 +----------+
 Explanation: Joe is the only employee who earns more than his manager.
-
--------------------------------------------------------------------------------------------
+===================================================================================================================================
 Query:
 Hint:Use SELF JOIN
 
