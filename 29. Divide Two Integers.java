@@ -15,13 +15,11 @@ Explanation: 7/-3 = -2.33333.. which is truncated to -2.
 Constraints:
 -231 <= dividend, divisor <= 231 - 1
 divisor != 0
-
-
 ======================================================================== */
 
 class Solution {
     public int divide(int dividend, int divisor) {
-        if(dividend==Integer.MIN_VALUE&&divisor==-1)
+        if(dividend==Integer.MIN_VALUE&&divisor==-1) // hint: as per test case
             return Integer.MAX_VALUE;
         int res=dividend/divisor;
         return res;
