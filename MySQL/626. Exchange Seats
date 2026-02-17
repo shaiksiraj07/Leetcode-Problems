@@ -40,7 +40,9 @@ Explanation:
 Note that if the number of students is odd, there is no need to change the last one's seat.
 
 =============================================================================================
-# Write your MySQL query statement below
+QUERY:
+
+
 select 
     case 
         when id%2=1 and id!=(select max(id) from Seat) then id+1
